@@ -96,7 +96,7 @@ def get_city_actions_markup():
     return markup
 
 
-async def add_player(id, character_name):
+def add_player(id, character_name):
     new_player = Players(PlayerId=id, \
                          Nickname=character_name, \
                          Level=PLAYER_START_DATA['Level'], \
@@ -110,7 +110,7 @@ async def add_player(id, character_name):
                          MagicArmour=PLAYER_START_DATA['MagicArmour'], \
                          LocationID=PLAYER_START_DATA['LocationID'])
 
-    return await session.add(new_player)
+    session.add(new_player)
 
 
 @bot.message_handler(commands=['create_character'])
