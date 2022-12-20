@@ -1,0 +1,12 @@
+{
+    "Level": 1, 
+    "Hp": 100, 
+    "CurHp": 100,
+    "Money": 100,
+    "Attack": 25, 
+    "MagicAttack": 0, 
+    "Xp": 0, 
+    "Armour": 10, 
+    "MagicArmour": 0, 
+    "LocationID": 0
+}
