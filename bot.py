@@ -8,7 +8,7 @@ from telebot.async_telebot import AsyncTeleBot, types
 import json
 
 PLAYER_START_DATA = None 
-TOKEN = '5922991439:AAFtURg7fdlC0G1xPe-ZyTGAWi0BYTjXJ-o'
+TOKEN = ''
 bot = AsyncTeleBot(TOKEN)
 
 engine = create_engine('sqlite+pysqlite:///chinook.db', echo=True)
